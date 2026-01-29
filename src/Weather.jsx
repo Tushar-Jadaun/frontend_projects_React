@@ -7,7 +7,7 @@ function Weather(){
     const [error, setError] = useState("");
      
     
-    const API_KEY = "e37ad07060312af386e4ad4f9fb5d988";
+    const API_KEY = "///enter you key //";
     
     const fetchWeather = async ()=>{
         if (!city.trim()) return;
